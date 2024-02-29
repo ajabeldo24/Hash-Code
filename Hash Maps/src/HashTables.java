@@ -1,3 +1,8 @@
+//HashMaps
+//Author: Ahmed Jabeldo
+//Date: 2-29-24
+//Collaborators: None
+
 import java.util.Scanner;
 
 public class HashTables {
