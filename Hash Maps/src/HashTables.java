@@ -68,7 +68,7 @@ public class HashTables {
         }
 
         int lInt = (Integer.parseInt(l));
-        int index = 1000000 % lInt;
+        int index = 999999937 % lInt;
         array1[index] = value;
         return true;
     }
@@ -132,7 +132,7 @@ public class HashTables {
             }
         }
         int lInt = (Integer.parseInt(l));
-        int index = 1000000 % lInt;
+        int index = 999999937 % lInt;
         return array1[index];
     }
 
@@ -194,7 +194,6 @@ public class HashTables {
             }
         }
         int lInt = (Integer.parseInt(l));
-        int index = 1000000 % lInt;
-        return index;
+        return lInt;
     }
 }
